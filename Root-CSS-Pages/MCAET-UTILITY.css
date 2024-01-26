@@ -1,0 +1,53 @@
+:root {
+  --primary-color: #803453;
+}
+
+.Read-More-btn {
+  margin-top: 20px;
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+  border: green;
+  background-color: #008000;
+}
+
+.events {
+  border: 1px solid var(--primary-color);
+  width: 20vw;
+}
+
+.table-head {
+  text-align: center;
+  vertical-align: middle;
+  padding: 5px 0;
+  color: white;
+  background-color: var(--primary-color);
+  font-size: 1vw;
+}
+
+.table-body {
+  max-height: 100px;
+  overflow-y: auto;
+  display: block;
+}
+
+.table-body td {
+  max-width: 340px;
+  word-wrap: break-word;
+  display: block;
+  margin: 10px;
+  word-wrap: break-word;
+}
+
+.table-body td a {
+  text-decoration: none;
+}
+
+.table-footer {
+  font-size: 1vw;
+  text-align: center;
+  vertical-align: middle;
+  padding: 5px 0;
+  color: white;
+  background-color: grey;
+}

@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --primary-color: #803453;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+  }
+  
+  /* Below are the code of Header Section of the Website */
+  
+  header {
+    width: 100%;
+    position: relative;
+  }
+  
+  .firstHeader {
+    background-color: rgba(128, 128, 128, 0.666);
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+    font-size: 1vw;
+    color: white;
+  }
+  
+  .logo {
+    background-color: ivory;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    font-size: 1.1vw;
+  }
+  
+  .logo img {
+    width: 10vw;
+    min-width: 50px;
+    margin: 1vw 0;
+  }
+  
+  .logo-text1, .logo-text2 {
+    display: flex;
+    flex-direction: column;
+    color: #803453;
+    font-weight: bolder;
+    gap: 1vw;
+  }
+  
+  nav {
+    box-sizing: border-box;
+    background-color: #803453;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1vw;
+  }
+  
+  .nav-second-ul {
+    display: none;
+  }
+  
+  nav ul li {
+    position: relative;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+  }
+  
+  nav ul li a:hover {
+    color: yellow;
+  }
+  
+  .pre-footer {
+    background-color: var(--primary-color);
+    margin-bottom: 10px;
+  }
+  
+  .pre-footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.05vw;
+    padding: 0.4vw 0;
+  }
+  
+  .pre-footer ul li {
+    list-style: none;
+    padding: 0 2vw;
+  }
+  
+  .pre-footer ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .footer-objects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2vw;
+    background-color: black;
+  }
+  
+  .footer-lists {
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    order: 1;
+    font-size: 1vw;
+  }
+  
+  .footer-lists ul {
+    list-style: none;
+  }
+  
+  .footer-lists ul li {
+    margin: 1vw;
+  }
+  
+  .footer-lists ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .footer-rightSide {
+    order: 3;
+    color: white;
+    width: 30%;
+    font-size: 1vw;
+  }
+  
+  .footer-rightSide p {
+    margin: 1vw 0;
+  }
+  
+  .footer-copyright {
+    background-color: rgb(26, 26, 26);
+    color: rgb(214, 211, 211);
+    text-align: center;
+    padding: 8px;
+    font-size: 1vw;
+  }
