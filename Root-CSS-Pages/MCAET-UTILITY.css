@@ -2,6 +2,32 @@
   --primary-color: #803453;
 }
 
+.sub-menu{
+  display: none;
+}
+
+.navSec ul li:hover .sub-menu{
+  display: block;
+  position: absolute;
+  background-color: #803453;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+
+.navSec ul li:hover .sub-menu ul{
+  display: block;
+  margin: 10px;
+}
+
+.navSec ul li:hover .sub-menu ul li{
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+
 .Read-More-btn {
   margin-top: 20px;
   color: #fff;

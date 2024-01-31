@@ -19,23 +19,26 @@
     font-size: 50%;
   }
 
-  nav {
+  .navSec {
     padding: 3px 0;
-    display: flex;
-    flex-direction: column;
     gap: 3px;
   }
 
-  nav ul {
-    font-size: 1.5vw;
+  .navSec ul {
+    font-size: 2vw;
   }
 
-  .nav-second-ul {
+  .navSide {
+    padding: 3px 0;
     display: flex;
     justify-content: center;
   }
 
-  .nav-second-ul li{
+  .navSide ul {
+    font-size: 2vw;
+  }
+
+  .navSide li{
     padding: 0 5px;
   }
 
