@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="Root-CSS-Pages/MCAET-UTILITY.css">
     <link rel="stylesheet" href="Root-CSS-Pages/MCAET-mediaQuerry-smlDev.css">
     <link rel="stylesheet" href="Root-CSS-Pages/headerAndFooter.css">
+    
 </head>
 <body onload="slides()">
     
@@ -18,12 +19,12 @@
         </section>
         <section class="logo">
             <div class="logo-text1">
-                <p>महामाया कृषि अभियांत्रिकी एवं प्रौद्योगिकी महाविद्यालय,<br> अकबरपुर, अंबेडकर नगर</p>
+                <p>महामाया कृषि अभियांत्रिकी एवं प्रौद्योगिकी महाविद्यालय,<br> अकबरपुर, अंबेडकर नगर , 224122</p>
                 <p>Mahamaya College Of Agricultural Engineering & Technology<br>Akbarpur, Ambedkar Nagar</p>
             </div>
             <img src="Assets/images/logo.png" alt="">
             <div class="logo-text2">
-                <p>आचार्य नरेंद्र देव कृषि एवं प्रौद्योगिकी विश्वविद्यालय,<br> कुमारगंज, अयोध्या</p>
+                <p>आचार्य नरेंद्र देव कृषि एवं प्रौद्योगिकी विश्वविद्यालय,<br> कुमारगंज, अयोध्या,224229 , U.P</p>
                 <p>Acharya Narendra Deva University of Agriculture & Technology,<br> kumarganj, Ayodhya</p>
             </div>
         </section>
@@ -32,13 +33,74 @@
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="Nav-HTML-Pages/AboutUs.html">About Us</a></li>
-            <li><a href="Nav-HTML-Pages/Admissions.html">Admissions</a></li>
-            <li><a href="Nav-HTML-Pages/Academics.html">Academics</a></li>
-            <li><a href="Nav-HTML-Pages/Campus.html">Campus</a></li>
-            <li><a href="Nav-HTML-Pages/Research.html">Researches</a></li>
-            <li><a href="Nav-HTML-Pages/Alumni.html">Alumni</a></li>
-            <li><a href="Nav-HTML-Pages/Media.html">Media</a></li>
+            <li><a href="Nav-HTML-Pages/AboutUs.html">About Us</a>
+                <div class="sub-menu0">
+                    <ul>
+                        <li><a href="#">MCAET Ambedakar Nagar</a></li>
+                        <li><a href="#">Act</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="Nav-HTML-Pages/Admissions.html">Admissions</a>
+            <div class="sub-menu1">
+                <ul>
+                    <li><a href="#">Admission Process</a></li>
+                    <li><a href="#">Brouchre</a></li>
+                    <li><a href="#">Syllabus</a></li>
+                    <li><a href="#">Fees</a></li>
+                    <li><a href="#">Queries</a></li>
+                </ul>
+            </div>
+        </li>
+
+            <li><a href="Nav-HTML-Pages/Academics.html" >Academics</a>
+                <div class="sub-menu2">
+                    <ul>
+                        <li><a href="#">Course</a></li>
+                        <li><a href="#">Academic Calender</a></li>
+                        <li><a href="#">List of Holidays</a></li>
+                        <li><a href="#">Academic Result</a></li>
+                    </ul>
+                </div>
+            </li>
+
+            <li><a href="Nav-HTML-Pages/Campus.html">Campus</a>
+                <div class="sub-menu3">
+                    <ul>
+                        <li><a href="#">Campus Tour</a></li>
+                        <li><a href="#">Campus Images</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="Nav-HTML-Pages/Research.html">Researches</a>
+                <div class="sub-menu4">
+                    <ul>
+                        <li><a href="#">M.tech Researchers</a></li>
+                        <li><a href="#">P.hd Researchers</a></li>
+                    </ul>
+                </div>
+            </li>
+
+            <li><a href="Nav-HTML-Pages/Alumni.html">Alumni</a>
+                <div class="sub-menu5">
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Institute  Alumni Interaction Cell</a></li>
+                        <li><a href="#">Alumni Association MCAET</a></li>
+                        <li><a href="#">Alumni Registration portal</a></li>
+                        <li><a href="#">Alumni giving back portal</a></li>
+                    </ul>
+                </div>
+            </li>
+
+            <li><a href="Nav-HTML-Pages/Media.html">Media</a>
+                <div class="sub-menu6">
+                    <ul>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Web cast</a></li>
+                    </ul>
+                </div>
+            </li>
         </ul>
         <ul class="nav-second-ul">
             <li><a href="sideNav-HTML-Pages/administration.html">Administration</a></li>
@@ -116,6 +178,14 @@
             <div class="separation"></div>
         </section>
     </main>
+    <section class="about the collage ">
+        <div class="about the collage-link">
+           <div class="heading">
+             <h1>*About the collage* </h1></div>
+            <p>Mahamaya College of Agricultural Engineering and Technology (MCAET), Ambedkar Nagar Uttar Pradesh, India- 224122 is a Government Engineering College under the administration of Acharya Narendra Deva University of Agriculture & Technology, Kumarganj, Ayodhya. College was established in 2002. College is actively involved in teaching, research and extension in agricultural Engineering, Computer Science and Engineering and Mechanical Engineering. Since 2002 more than 600 students have received degree in various UG and PG courses. This college offers under graduate teaching Programme that includes B.Tech. in Agricultural Engineering, Mechanical Engineering, and Computer Science & Engineering. The post graduate degree and PhD degree is also offered by the college in Soil and Water Conservation Engineering, Farm Machinery and Power Engineering, Processing and Food Engineering, Renewable Energy Engineering and Irrigation and Drainage Engineering. </p>
+        
+        </div>
+    </section>
 
     <footer>
         <div class="pre-footer">
@@ -185,7 +255,12 @@
 
         var images = new Array(
             "Assets/images/hero1.jpg",
-            "Assets/images/hero2.jpg"
+            "Assets/images/hero3.JPG",
+            "Assets/images/college.jpg",
+            "Assets/images/hero4.JPG",
+            "Assets/images/hero5.JPG"
+        
+            
         );
         var len = images.length;
         var i = 0;
