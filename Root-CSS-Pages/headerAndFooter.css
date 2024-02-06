@@ -57,215 +57,77 @@
   }
   
   nav {
-    box-sizing: border-box;
-    background-color: #803453;
-    border-bottom: 1px solid #ccc;
-    padding: 10px 0;
     position: sticky;
     top: 0;
     z-index: 100;
   }
   
-  nav ul {
+  .navSec {
+    box-sizing: border-box;
+    background-color: var(--primary-color);
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  .navSec ul {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
     justify-content: space-around;
     font-size: 1vw;
-    line-height: 1rem;
-
+    
+  }
+  
+  .navSec ul li {
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
   }
 
+  .navSec ul li a {
+    color: white;
+    text-decoration: none;
+  }
   
-  .nav-second-ul {
+  .navSec ul li a:hover {
+    color: yellow;
+  }
+
+  .navSide {
     display: none;
+    box-sizing: border-box;
+    background-color: var(--primary-color);
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .navSide ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1vw;
+    
   }
   
-  nav ul li {
+  .navSide ul li {
     position: relative;
   }
   
-  nav a {
+  .navSide a {
     text-decoration: none;
     color: white;
     font-size: 100%;
   }
   
-  nav ul li a:hover {
-    background-color:rgba(148, 12, 51, 0.533);
-    border-end-end-radius: square;
-    border-radius: 0%;
-    font-size: 17px;
-    grid-area: 30px;
-    
-  }
-
-  .sub-menu0{
-    display: none;
-  }
-  nav ul li:hover .sub-menu0{
-    display: block;
-    position: absolute;
-    background-color: #803453;
-    margin-top: 10px;
-    margin-left: -15px;
-    border-top:1px dotted #fff ;
-    
-  }
-  nav ul li:hover .sub-menu0 ul{
-    display: block;
-    margin: 10px;
-  }
-  nav ul li:hover .sub-menu0 ul li{
-    width: 150px;
-    padding: 10px;
-    border-bottom: 1px dotted #fff;
-    background: transparent;
-    border-radius: 0;
-    text-align: left;
-  }
-
-  .sub-menu1{
-    display: none;
-  }
-  nav ul li:hover .sub-menu1{
-    display: block;
-    position: absolute;
-    background-color: #803453;
-    margin-top: 10px;
-    margin-left: -15px;
-    border-top:1px dotted #fff;
-  }
-  nav ul li:hover .sub-menu1 ul{
-    display: block;
-    margin: 10px;
-  }
-  nav ul li:hover .sub-menu1 ul li{
-    width: 150px;
-    padding: 10px;
-    border-bottom: 1px dotted #fff;
-    background: transparent;
-    border-radius: 0;
-    text-align: left;
-  }
-  .sub-menu2{
-    display: none;
-  }
-  nav ul li:hover .sub-menu2{
-    display: block;
-    position: absolute;
-    background-color: #803453;
-    margin-top: 10px;
-    margin-left: -15px;
-    border-top:1px dotted #fff;
-  }
-  nav ul li:hover .sub-menu2 ul{
-    display: block;
-    margin: 10px;
-  }
-  nav ul li:hover .sub-menu2 ul li{
-    width: 150px;
-    padding: 10px;
-    border-bottom: 1px dotted #fff;
-    background: transparent;
-    border-radius: 0;
-    text-align: left;
-  }
-
-  .sub-menu3{
-    display: none;
-  }
-  nav ul li:hover .sub-menu3{
-    display: block;
-    position: absolute;
-    background-color: #803453;
-    margin-top: 10px;
-    margin-left: -15px;
-    border-top:1px dotted #fff;
-  }
-  nav ul li:hover .sub-menu3 ul{
-    display: block;
-    margin: 10px;
-  }
-  nav ul li:hover .sub-menu3 ul li{
-    width: 150px;
-    padding: 10px;
-    border-bottom: 1px dotted #fff;
-    background: transparent;
-    border-radius: 0;
-    text-align: left;
-  }
-
-  .sub-menu4{
-    display: none;
-  }
-  nav ul li:hover .sub-menu4{
-    display: block;
-    position: absolute;
-    background-color: #803453;
-    margin-top: 10px;
-    margin-left: -15px;
-    border-top:1px dotted #fff;
-  }
-  nav ul li:hover .sub-menu4 ul{
-    display: block;
-    margin: 10px;
-  }
-  nav ul li:hover .sub-menu4 ul li{
-    width: 150px;
-    padding: 10px;
-    border-bottom: 1px dotted #fff;
-    background: transparent;
-    border-radius: 0;
-    text-align: left;
-  }
-  .sub-menu5{
-    display: none;
-  }
-  nav ul li:hover .sub-menu5{
-    display: block;
-    position: absolute;
-    background-color: #803453;
-    margin-top: 10px;
-    margin-left: -15px;
-    border-top:1px dotted #fff;
-  }
-  nav ul li:hover .sub-menu5 ul{
-    display: block;
-    margin: 10px;
-  }
-  nav ul li:hover .sub-menu5 ul li{
-    width: 150px;
-    padding: 10px;
-    border-bottom: 1px dotted #fff;
-    background: transparent;
-    border-radius: 0;
-    text-align: left;
-  }
-
-  .sub-menu6{
-    display: none;
-  }
-  nav ul li:hover .sub-menu6{
-    display: block;
-    position: absolute;
-    background-color: #803453;
-    margin-top: 10px;
-    margin-left: -15px;
-    border-top:1px dotted #fff;
-  }
-  nav ul li:hover .sub-menu6 ul{
-    display: block;
-    margin: 10px;
-  }
-  nav ul li:hover .sub-menu6 ul li{
-    width: 150px;
-    padding: 10px;
-    border-bottom: 1px dotted #fff;
-    background: transparent;
-    border-radius: 0;
-    text-align: left;
+  .navSide ul li a:hover {
+    color: yellow;
   }
 
   .pre-footer {
@@ -338,25 +200,4 @@
     text-align: center;
     padding: 8px;
     font-size: 1vw;
-  }
-  .about.the.collage{
-    margin-left: 0pt;
-    padding-left: 0pt;
-    text-align: justify;
-    text-indent: 0pt;
-    margin-left: 10rem;
-    margin-right: 10rem;
-    font-family: Arial, Helvetica, sans-serif;
-
-  }
-  .heading{
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    color: #803453;
-    margin-bottom: 1.1rem;
-    font-size: 1.7rem;
-    border-top:2px dotted #803453;
-    border-bottom:2px dotted #803453;
-  
   }

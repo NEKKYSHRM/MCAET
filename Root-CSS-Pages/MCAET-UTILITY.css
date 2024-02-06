@@ -2,6 +2,44 @@
   --primary-color: #803453;
 }
 
+.sub-menu{
+  display: none;
+}
+
+.navSec ul li:hover .sub-menu{
+  display: block;
+  position: absolute;
+  top: 0.4vw;
+  background-color: ivory;
+  box-shadow: 1px 1px 7px 1px #2f2e2e;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+
+.navSec ul li:hover .sub-menu ul{
+  display: block;
+  margin: 10px;
+}
+
+.navSec ul li:hover .sub-menu ul li{
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #020D19;
+  border-radius: 0;
+  text-align: left;
+}
+
+.navSec ul li:hover .sub-menu ul li a {
+  color: #020D19;
+}
+
+.navSec ul li img {
+  margin-left: 0.3vw;
+  width: 1vw;
+  color: white;
+}
+
+
 .Read-More-btn {
   margin-top: 20px;
   color: #fff;

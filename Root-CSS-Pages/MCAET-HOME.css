@@ -81,6 +81,21 @@ html, body {
   position: relative;
 }
 
+/* About Section */
+
+.aboutCollege {
+  align-items: center;
+  justify-content: center;
+  margin: 2vw 5vw;
+  text-align: center;
+  font-size: 1vw;
+}
+
+.aboutCollegeText h1{
+  color: #803453;
+  font-size: 3em;
+}
+
 /* Gov Slider */
 
 @keyframes scroll {
