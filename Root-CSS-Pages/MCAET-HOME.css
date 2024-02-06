@@ -31,6 +31,10 @@ html, body {
   align-items: center;
   font-size: 1vw;
 }
+.hero-link ul :hover{
+  font-size: large;
+  color: darkgrey;
+}
 
 .hero-link ul button {
   list-style: none;
@@ -43,6 +47,7 @@ html, body {
   justify-content: center;
   cursor: pointer;
 }
+
 
 .hero-link ul button a {
   color: white;
