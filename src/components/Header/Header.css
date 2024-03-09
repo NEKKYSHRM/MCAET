@@ -1,3 +1,7 @@
+:root {
+  --primary-color: #803453;
+}
+
 header {
   width: 100%;
   position: relative;
@@ -36,4 +40,23 @@ header {
   color: #803453;
   font-weight: bolder;
   gap: 1vw;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .firstHeader {
+    font-size: 1.5vw;
+  }
+
+  .logo {
+    flex-direction: column;
+    text-align: center;
+    font-size: 18px;
+    padding: 1vw;
+  }
+
+  .logo-text1,
+  .logo-text2 {
+    font-size: 50%;
+  }
 }
