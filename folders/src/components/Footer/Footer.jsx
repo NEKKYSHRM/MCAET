@@ -1,14 +1,18 @@
 import React from "react";
 import "./Footer.css";
+import "../Header/Navbar.css";
+import Link from "next/link";
 
 export default function Footer() {
   return (
     <div>
       <footer>
-        <div className="pre-footer">
+        <div className="pre-footer text-white">
           <ul>
             <li>
-              <a href="#">Administration Corner</a>
+              <Link href="/signup" className="Navbar-Link cursor-pointer">
+                Administration Corner
+              </Link>
             </li>
             <hr />
             <li>
@@ -107,10 +111,11 @@ export default function Footer() {
         <div className="footer-copyright">
           <p>
             Copyrights &copy; 2024 MCAET. All rights reserved. | Designed and
-            developed by 
+            developed by
             <span style={{ fontWeight: "bold" }}>
               <a style={{ textDecoration: "none", color: "white" }} href="#">
-                  SoftSculpt Innovations
+                {/* SoftSculpt Innovations */}
+                Nikhil Kumar Sharma
               </a>
             </span>
           </p>

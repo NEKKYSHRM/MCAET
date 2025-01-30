@@ -22,7 +22,7 @@ export default function Navbar() {
               <div className="sub-menu">
                 <ul>
                   <li>
-                    <Link href="/about" className="Navbar-Link">
+                    <Link href="/aboutus" className="Navbar-Link">
                       MCAET Ambedakar Nagar
                     </Link>
                   </li>
@@ -40,12 +40,12 @@ export default function Navbar() {
               <div className="sub-menu">
                 <ul>
                   <li>
-                    <Link href="#" className="Navbar-Link">
+                    <Link href="/admissions" className="Navbar-Link">
                       Admission Process
                     </Link>
                   </li>
                   <li>
-                    <Link href="#" className="Navbar-Link">
+                    <Link href="https://upcatet.org/site/pdf/upcatet_online_counselling_schedule.pdf" target="_blank" className="Navbar-Link">
                       Brouchre
                     </Link>
                   </li>
@@ -55,7 +55,7 @@ export default function Navbar() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="#" className="Navbar-Link">
+                    <Link href="https://drive.google.com/file/d/1JBr5sJSfA9A5mGsR3INPIo4d89ZO1_sC/view" target="_blank" className="Navbar-Link">
                       Fees
                     </Link>
                   </li>
@@ -73,12 +73,12 @@ export default function Navbar() {
               <div className="sub-menu">
                 <ul>
                   <li>
-                    <Link href="#" className="Navbar-Link">
-                      Course
+                    <Link href="/courses" className="Navbar-Link">
+                      Courses
                     </Link>
                   </li>
                   <li>
-                    <Link href="#" className="Navbar-Link">
+                    <Link href="https://nduat.org/pdf/Academic%20Calendar%202024-25%20II%20Sem.pdf" target="_blank" className="Navbar-Link">
                       Academic Calender
                     </Link>
                   </li>

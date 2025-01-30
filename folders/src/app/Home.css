@@ -54,10 +54,10 @@
   align-items: center;
   font-size: 1vw;
 }
-.hero-link ul :hover {
+/* .hero-link ul :hover {
   font-size: large;
   color: darkgrey;
-}
+} */
 
 .hero-link ul button {
   list-style: none;
